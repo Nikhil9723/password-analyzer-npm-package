@@ -1,5 +1,5 @@
 function checkPassword(password: string) {
-    let strength: string = "week";
+    let strength: "Weak" | "Medium" | "Strong" = "Weak";
     let suggestion:string[] = [];
 
     if(password.length < 8) {

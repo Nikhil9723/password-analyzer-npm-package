@@ -1,5 +1,5 @@
 declare function checkPassword(password: string): {
-    strength: string;
+    strength: "Weak" | "Medium" | "Strong";
     suggestion: string[];
 };
 export default checkPassword;

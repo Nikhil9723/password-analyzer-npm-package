@@ -1,5 +1,5 @@
 function checkPassword(password) {
-    let strength = "week";
+    let strength = "Weak";
     let suggestion = [];
     if (password.length < 8) {
         suggestion.push("Use at least 8 characters");
