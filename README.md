@@ -8,3 +8,9 @@ A lightweight, zero-dependency JavaScript utility that evaluates the strength of
 ## Installation
 ```bash
 npm install password-strength-analyzer# password-analyzer-npm-package
+
+## Import password checker function 
+- import password-checker function and provide full path of file. ex:- node-modules to function name.
+
+## Function Returns values
+- Function reurn two value {strength and suggestion array}, so use that value and display it place where you want to display it.
