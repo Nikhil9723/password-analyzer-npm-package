@@ -7,10 +7,31 @@ A lightweight, zero-dependency JavaScript utility that evaluates the strength of
 - Super easy to use and extend
 ## Installation
 ```bash
-npm install password-strength-analyzer# password-analyzer-npm-package
 
-## Import password checker function 
-- import password-checker function and provide full path of file. ex:- node-modules to function name.
+### Step1:-
+First install using this command: ```npm i @nikhil-prajapati/password-analyzer```
 
-## Function Returns values
-- Function reurn two value {strength and suggestion array}, so use that value and display it place where you want to display it.
+### Step2:-
+Import the function by adding below line in the top of your script file.
+```js
+import checkPassword from './node_modules/@nikhil-prajapati/password-analyzer/password-strength-analyzer.js';
+```
+
+Also add ```type='module'``` in your script declaration in HTML.
+```HTML
+<script defer type="module" src="./script.js"></script>
+```
+### Step3:-
+Call the ```checkPassword``` function in your script.
+
+Here,
+- first, pass your password string into that function.
+- checkPassword return you two values in objects so you have to destructure it.
+```{strength, suggestion} = checkPassword(passwoed)```js
+- first value is Strength of your password.
+- second value is an Suggestion box which is an array of strin.
+- Use this details and show this information at the place below the password field.  
+
+```js
+checkPassword('abc123');
+```
