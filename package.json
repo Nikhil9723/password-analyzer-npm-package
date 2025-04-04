@@ -1,0 +1,23 @@
+{
+  "name": "@nikhil-prajapati/password-analyzer",
+  "version": "1.0.0",
+  "description": "Analyze your password based on strength and make sure that the password is strong enough of to not crackable",
+  "main": "password-strength-analyzer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikhil9723/password-analyzer-npm-package.git"
+  },
+  "keywords": [
+    "password-strength-analyzer"
+  ],
+  "author": "Nikhil Prajapati",
+  "license": "ISC",
+  "types": "./password-strength-analyzer.d.ts",
+  "bugs": {
+    "url": "https://github.com/Nikhil9723/password-analyzer-npm-package/issues"
+  },
+  "homepage": "https://github.com/Nikhil9723/password-analyzer-npm-package#readme"
+}
