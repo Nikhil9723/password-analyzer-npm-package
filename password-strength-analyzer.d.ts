@@ -1,4 +1,5 @@
-export declare function checkPassword(password: string): {
+declare function checkPassword(password: string): {
     strength: string;
     suggestion: string[];
 };
+export default checkPassword;

@@ -1,4 +1,4 @@
-export function checkPassword(password: string) {
+function checkPassword(password: string) {
     let strength: string = "week";
     let suggestion:string[] = [];
 
@@ -30,3 +30,6 @@ export function checkPassword(password: string) {
 
     return {strength, suggestion};
 }
+
+
+export default checkPassword;
