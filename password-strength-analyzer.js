@@ -1,4 +1,4 @@
-export function checkPassword(password) {
+function checkPassword(password) {
     let strength = "week";
     let suggestion = [];
     if (password.length < 8) {
@@ -24,3 +24,4 @@ export function checkPassword(password) {
     }
     return { strength, suggestion };
 }
+export default checkPassword;
